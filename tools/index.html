@@ -1,0 +1,261 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tools & Utilities | Redbox.my - Open Source</title>
+    <link href="/assets/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="canonical" href="https://redbox.my/tools/" />
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        
+    <meta property="og:title" content="Tools & Utilities | Redbox.my - Open Source" />
+	<meta name="description" content="Software tools and utilities for Redbox kiosk management, diagnostics, and restoration. Open-source projects from the community." />
+	<meta property="og:description" content="Software tools and utilities for Redbox kiosk management, diagnostics, and restoration. Open-source projects from the community." />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://redbox.my/tools/" />
+	<meta property="og:site_name" content="Redbox.my | The Redbox Archive" />
+    <style>
+        html,
+        body {
+            scroll-behavior: smooth;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    {% include header.html %}
+
+    <div class="bg-gradient-to-b from-red-600 to-red-700 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Tools & Utilities</h1>
+            <p class="text-xl text-red-100 max-w-3xl">
+                Community-built software for discovering, managing, and restoring Redbox kiosks. All open-source and
+                built by tinkerers.
+            </p>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8">Featured Tools</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 border-l-4 border-red-600">
+                <div class="flex items-start justify-between mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">redbox-apis</h3>
+                        <span
+                            class="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">TypeScript
+                            (APIs)</span>
+                    </div>
+                    <svg class="w-8 h-8 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                    </svg>
+                </div>
+                <p class="text-gray-600 mb-4">
+                    A feature-rich API designed to restore the functionality of your Redbox kiosk, as well as Redbox
+                    Perks. An attempt to reverse engineer the Redbox backend APIs.
+                </p>
+                <div class="flex items-center justify-between">
+                    <a href="https://github.com/Puyodead1/redbox-apis" target="_blank"
+                        class="text-red-600 hover:text-red-700 font-medium">
+                        View on GitHub ➔
+                    </a>
+                    <span class="text-xs text-gray-500">By Puyodead1, Brian Walczak, and Legoman99573</span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 border-l-4 border-red-600">
+                <div class="flex items-start justify-between mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">findaredbox</h3>
+                        <span
+                            class="inline-block bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded-full">Database
+                            + Web App</span>
+                    </div>
+                    <svg class="w-8 h-8 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                </div>
+                <p class="text-gray-600 mb-4">
+                    Historical database of kiosk locations and metadata, including geo-coordinates and product
+                    data.<br><br>
+                </p>
+                <div class="flex items-center justify-between">
+                    <a href="https://github.com/kbots-tech/findaredbox" target="_blank"
+                        class="text-red-600 hover:text-red-700 font-medium">
+                        View on GitHub ➔
+                    </a>
+                    <span class="text-xs text-gray-500">By McKeegan Curran (thanks to data contributions)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">All Tools</h2>
+
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold text-gray-700 mb-4 pb-2 border-b-2 border-red-600">Management &
+                    Functionality</h3>
+                <div class="space-y-4">
+                    <div class="bg-gray-50 rounded-lg p-5 hover:bg-gray-100 transition">
+                        <div class="flex items-center justify-between">
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-800">RedboxStocker</h4>
+                                <p class="text-gray-600 text-sm mt-1">A feature-rich Redbox inventory software for
+                                    efficiently managing Redbox kiosk inventory, titles, and more.</p>
+                                <small class="text-gray-600 mt-1">Author(s): Brian Walczak</small>
+                            </div>
+                            <a href="https://github.com/BrianWalczak/RedboxStocker" target="_blank"
+                                class="ml-4 text-red-600 hover:text-red-700 font-medium whitespace-nowrap">
+                                GitHub ➔
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg p-5 hover:bg-gray-100 transition">
+                        <div class="flex items-center justify-between">
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-800">redbox-apis</h4>
+                                <p class="text-gray-600 text-sm mt-1">A feature-rich API designed to restore the
+                                    functionality of your Redbox kiosk, as well as Redbox Perks. An attempt to reverse
+                                    engineer the Redbox backend APIs.</p>
+                                <small class="text-gray-600 mt-1">Author(s): Puyodead1, Brian Walczak,
+                                    Legoman99573</small>
+                            </div>
+                            <a href="https://github.com/Puyodead1/redbox-apis" target="_blank"
+                                class="ml-4 text-red-600 hover:text-red-700 font-medium whitespace-nowrap">
+                                GitHub ➔
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-5 hover:bg-gray-100 transition">
+                        <div class="flex items-center justify-between">
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-800">HW-Emu-Python</h4>
+                                <p class="text-gray-600 text-sm mt-1">Python-based emulator for kiosk hardware,
+                                    simulating devices the HAL communicates with. Useful for development and testing
+                                    without physical hardware.</p>
+                                <small class="text-gray-600 mt-1">Author(s): Puyodead1</small>
+                            </div>
+                            <a href="https://github.com/unredbox/HW-Emu-Python" target="_blank"
+                                class="ml-4 text-red-600 hover:text-red-700 font-medium whitespace-nowrap">
+                                GitHub ➔
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold text-gray-700 mb-4 pb-2 border-b-2 border-red-600">Databases &
+                    Information</h3>
+                <div class="space-y-4">
+                    <div class="bg-gray-50 rounded-lg p-5 hover:bg-gray-100 transition">
+                        <div class="flex items-center justify-between">
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-800">findaredbox</h4>
+                                <p class="text-gray-600 text-sm mt-1">Historical database of kiosk locations and
+                                    metadata, including geo-coordinates and product data.</p>
+                                <small class="text-gray-600 mt-1">Author(s): McKeegan Curran, Brian Walczak (geocoded
+                                    data), codeHusky (kiosk data), Puyodead1 (product data)</small>
+                            </div>
+                            <a href="https://github.com/kbots-tech/findaredbox" target="_blank"
+                                class="ml-4 text-red-600 hover:text-red-700 font-medium whitespace-nowrap">
+                                GitHub ➔
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg p-5 hover:bg-gray-100 transition">
+                        <div class="flex items-center justify-between">
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-800">RedboxLocator</h4>
+                                <p class="text-gray-600 text-sm mt-1">An interactive map of kiosk locations with
+                                    community data, powered by the <code>findaredbox</code> database.</p>
+                                <small class="text-gray-600 mt-1">Author(s): Brian Walczak</small>
+                            </div>
+                            <a href="https://github.com/BrianWalczak/RedboxLocator" target="_blank"
+                                class="ml-4 text-red-600 hover:text-red-700 font-medium whitespace-nowrap">
+                                GitHub ➔
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg p-5 hover:bg-gray-100 transition">
+                        <div class="flex items-center justify-between">
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-800">Redbox.my DDNS</h4>
+                                <p class="text-gray-600 text-sm mt-1">A dynamic DNS service that lets you easily reserve
+                                    a custom Redbox domain for your self-hosted API.</p>
+                                <small class="text-gray-600 mt-1">Author(s): Brian Walczak</small>
+                            </div>
+                            <a href="https://github.com/BrianWalczak/Redbox.my-DDNS" target="_blank"
+                                class="ml-4 text-red-600 hover:text-red-700 font-medium whitespace-nowrap">
+                                GitHub ➔
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-4 pb-2 border-b-2 border-red-600">Documentation &
+                    Resources</h3>
+                <div class="space-y-4">
+                    <div class="bg-gray-50 rounded-lg p-5 hover:bg-gray-100 transition">
+                        <div class="flex items-center justify-between">
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-800">unRedbox Wiki</h4>
+                                <p class="text-gray-600 text-sm mt-1">Community-maintained technical documentation and
+                                    guides.</p>
+                                <small class="text-gray-600 mt-1">Author(s): unRedbox Community</small>
+                            </div>
+                            <a href="https://github.com/unRedbox/Wiki" target="_blank"
+                                class="ml-4 text-red-600 hover:text-red-700 font-medium whitespace-nowrap">
+                                GitHub ➔
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-red-50 border-t border-red-200 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Built Something?</h2>
+            <p class="text-gray-600 mb-6 max-w-2xl mx-auto">
+                Created a tool or utility for Redbox kiosks? Share it with the community on Discord or request to have
+                it listed here.
+            </p>
+            <div class="flex flex-wrap gap-4 justify-center">
+                <a href="https://discord.gg/U2khe336MK" target="_blank"
+                    class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded transition shadow">
+                    Join Discord
+                </a>
+                <a href="https://tally.so/r/mKqyzz" target="_blank"
+                    class="bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-3 rounded transition shadow">
+                    Submit Tool
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>
