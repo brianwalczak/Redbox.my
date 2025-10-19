@@ -1,0 +1,59 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>404 Not Found | Redbox.my</title>
+    <link href="/assets/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="canonical" href="https://redbox.my/404.html" />
+    <meta name='robots' content='noindex, nofollow' />
+
+    <meta property="og:title" content="404 Not Found | Redbox.my" />
+    <meta name="description" content="Sorry, the page you are looking for does not exist on Redbox.my." />
+    <meta property="og:description" content="Sorry, the page you are looking for does not exist on Redbox.my." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://redbox.my/404.html" />
+    <meta property="og:site_name" content="Redbox.my | The Redbox Archive" />
+    <style>
+        html,
+        body {
+            scroll-behavior: smooth;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    {% include header.html %}
+
+    <div class="min-h-screen flex flex-col">
+        <div class="flex-grow flex items-center justify-center py-16 px-4">
+            <div class="max-w-2xl mx-auto text-center">
+                <div class="mb-8">
+                    <svg class="mx-auto h-24 w-24 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                </div>
+                <h1 class="text-4xl font-bold text-gray-800 mb-4">Page Not Found</h1>
+                <p class="text-gray-600 text-lg mb-5">Sorry, we couldn't find the page you're looking for. It might have
+                    been moved or doesn't exist.</p>
+                <button onclick="window.history.back()"
+                    class="inline-flex cursor-pointer items-center bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-3 rounded-lg transition shadow-sm">
+                    Go Back
+                </button>
+            </div>
+        </div>
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>
